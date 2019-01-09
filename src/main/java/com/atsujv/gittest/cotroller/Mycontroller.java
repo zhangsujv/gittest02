@@ -20,7 +20,6 @@ public class Mycontroller {
     }
 
 
-    //测试冲突在idea中的提交
     @GetMapping(value = "map")
     public Map<String,String> map(){
         Map<String,String> map = new HashMap<>();
