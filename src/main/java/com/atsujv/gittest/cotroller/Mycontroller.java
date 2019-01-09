@@ -26,6 +26,7 @@ public class Mycontroller {
         Map<String,String> map = new HashMap<>();
         map.put("my","我的");
         map.put("your","你的");
+        map.put("his","他的");
         return map;
     }
 }
