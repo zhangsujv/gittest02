@@ -30,4 +30,9 @@ public class Mycontroller {
         map.put("her","她的");
         return map;
     }
+
+    @GetMapping(value = "hl")
+    public String hl(){
+        return "你好";
+    }
 }
