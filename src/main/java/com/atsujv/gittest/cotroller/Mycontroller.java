@@ -20,6 +20,7 @@ public class Mycontroller {
     }
 
 
+    //这是我测试解决冲突的问题
     @GetMapping(value = "map")
     public Map<String,String> map(){
         Map<String,String> map = new HashMap<>();
