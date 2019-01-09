@@ -20,6 +20,7 @@ public class Mycontroller {
     }
 
 
+    //gittest1提交的注释
     @GetMapping(value = "map")
     public Map<String,String> map(){
         Map<String,String> map = new HashMap<>();
